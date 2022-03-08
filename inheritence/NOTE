@@ -1,0 +1,9 @@
+--Inheritance considered Is-A relationship. Ex: A Car is a Vehicle
+--Use `extends` keyword
+--We can `override` parent class method in child class. Which is referred as `Polymorphism`
+    --After override we can still call parent method using parent::method_name.
+--Can't override `final` methods of parent class inside child class.
+--PHP does'nt support multiple inheritance
+    --A child class inherit from two Base class which(Parent) implements a same method. an ambiguity will arise
+        as child class doesn't know which method to implement.
+--But multiple inheritance can be achieved using Trait and  Interface

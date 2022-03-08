@@ -1,0 +1,2 @@
+--Create object of the parent class inside constructor
+--Can't access protected method of parent class
